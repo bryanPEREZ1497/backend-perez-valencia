@@ -1,3 +1,4 @@
-gitcracken
+gitcracken. programa para manejo de git
 apikey. php artisan key:generate. para el .env
 recomendable: antes de hacer pull, no tener ningun commit ni ningun cambio pendientes
+composer install. para instalar dependencias
