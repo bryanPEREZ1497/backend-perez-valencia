@@ -1,0 +1,11 @@
+POST http://backend-perez-valencia.test/api/v1/public/projects
+Content-Type: application/json
+Accept: application/json
+
+{
+    "code":"sefasf",
+    "date":"2021-09-11",
+    "description":"asfasdfasf",
+    "approved":true,
+    "title":"projecto xxx",
+}

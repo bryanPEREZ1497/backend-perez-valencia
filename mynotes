@@ -2,3 +2,24 @@ gitcracken. programa para manejo de git
 apikey. php artisan key:generate. para el .env
 recomendable: antes de hacer pull, no tener ningun commit ni ningun cambio pendientes
 composer install. para instalar dependencias
+500 error en el servidor
+400 error desds el cliente
+300 redireccionamiento
+200 éxito
+php artisan route:list  // listar todas las rutas creadas
+php artisan r:l  // listar todas las rutas creadas
+php artisan make:controller ProjectsController//SIN CODIGO
+php artisan make:controller ProjectsController --api//CON CODIGO
+nombre del controller en plural con la palabra controller.
+php artisan make:model Author//MODELS
+php artisan migrate
+php artisan migrate:fresh//elimina lastablas y sus registro y realiza de nuevo las migraciones
+php artisan make:migration create_app__authors_table
+php artisan make:migration create_app__student_informations_table//con dos nombres
+$table=app.authors
+$table=app.student_informations//en el model, si este tiene dos nombres
+php artisan make:migration create_app__author_project_table//al crear una tabla pivote
+php artisan migrate:fresh --seed//ejecutar los seeders
+php artisan make:seeder AppSeeder//
+php artisan make:factory Project//nombre del modelo
+
